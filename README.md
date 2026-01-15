@@ -32,15 +32,21 @@ The synthetic dataset includes the following fields:
 - Required libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`
 
 ### Setup
-Install the dependencies using pip:
+Install the dependencies using the requirements file:
 ```bash
-python -m pip install pandas numpy matplotlib seaborn
+python -m pip install -r requirements.txt
 ```
 
 ### Running the Analysis
 Execute the script to regenerate the dataset and update the analysis:
 ```bash
 python coffee_shop_analysis.py
+```
+
+### Running the Streamlit App
+To launch the interactive dashboard:
+```bash
+python -m streamlit run app.py
 ```
 
 ## Business Insights from Analysis
